@@ -35,7 +35,7 @@ export default function AboutSection() {
   const stats = [
     { icon: <FolderOpen size={18} />, value: 7, suffix: '+', label: 'Projects' },
     { icon: <Code2 size={18} />, value: 10, suffix: '+', label: 'Technologies' },
-    { icon: <Zap size={18} />, value: 1, suffix: '', label: 'Internship' },
+    //{ icon: <Zap size={18} />, value: 1, suffix: '', label: 'Internship' },
   ];
 
   return (
