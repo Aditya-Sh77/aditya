@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User, Zap, FolderOpen, Code2 } from 'lucide-react';
+import { User, FolderOpen, Code2 } from 'lucide-react';
 import { AnimatedSection, SectionHeading, fadeInUp } from './AnimationUtils';
 import { useEffect, useRef, useState } from 'react';
 
