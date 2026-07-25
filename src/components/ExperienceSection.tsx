@@ -6,14 +6,25 @@ import { AnimatedSection, SectionHeading, fadeInUp } from './AnimationUtils';
 
 const experiences = [
   {
-    role: 'Frontend Developer',
-    company: 'Google Developer Group (GDG), NIT Calicut',
-    period: 'May 2025 — July 2025',
+    role: 'Advanced Application Engineering Analyst (AEH-Intern)',
+    company: 'Accenture',
+    period: 'May 2026 — July 2026',
     bullets: [
-      'Built a React-based frontend for an Activity Points Management System to enable structured tracking of student event participation.',
-      'Worked in a team environment to implement responsive UI components and integrate backend APIs.',
+      'Engineered a stateful PL/SQL orchestrator integrating the Cohere LLM into a ”Two-Brain” agentic workflow.',
+      'Deployed specialized AI agents: an autonomous Journal Bot utilizing a 6-tool atomic vocabulary and persistent memory for multi-step API fan-outs, alongside a stateless Forms Bot.',
+      'Architected a 3-stage asynchronous API pipeline (Router → Oracle → Speaker) with custom HTTP request tracing and per-iteration exception isolation.'
     ],
   },
+
+  // {
+  //   role: 'Frontend Developer',
+  //   company: 'Google Developer Group (GDG), NIT Calicut',
+  //   period: 'May 2025 — July 2025',
+  //   bullets: [
+  //     'Built a React-based frontend for an Activity Points Management System to enable structured tracking of student event participation.',
+  //     'Worked in a team environment to implement responsive UI components and integrate backend APIs.',
+  //   ],
+  // },
 ];
 
 export default function ExperienceSection() {
